@@ -1,3 +1,11 @@
+
+#examples/natural_gradient_black_box_svi.py
+
+
+#illustrate how the behavior of the natural gradient differs from the standard gradient. 
+
+#In this case, the posterior is a multivariate normal model with a non-conjugate prior.
+
 from __future__ import absolute_import
 from __future__ import print_function
 import matplotlib.pyplot as plt
